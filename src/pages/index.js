@@ -12,7 +12,7 @@ export default ({ data }) => {
   return (
     <PageLayout>
       <SEO title="Home" />
-      <Container className="text-center pt-5 mt-5" fluid>
+      <Container className="text-center pt-5" fluid>
         <Image
           width="200"
           height="200"
@@ -98,7 +98,7 @@ export default ({ data }) => {
             <FontAwesomeIcon
               icon={["fas", "file-alt"]}
               className="icons file"
-              title="Resume Stacy K."
+              title="Resume Front-end Developer."
             />
           </a>
         </div>
