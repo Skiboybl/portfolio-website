@@ -19,7 +19,7 @@ export default ({ data }) => {
           {allProjects.map(({ node }) => {
             // debugger
             return (
-              <div key={node.id} className="pt-3 pr-5 pl-5">
+              <div key={node.id} className="pt-3 pr-2 pl-2">
                 <ProjectLink
                   to={node.fields.slug}
                   featuredImages={featuredImageMap[node.fields.slug]}

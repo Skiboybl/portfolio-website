@@ -20,7 +20,7 @@ endDate: "2020-08-21"
 
 * Designed overall reusable component structure of the application. </p>
 
-* Implemented the frontend in React, Material UI and SASS..</p>
+* Implemented the frontend in React, Material UI and SASS.</p>
 
 * Implemented REST API calls and updated the state throughout the application using Redux.</p>
 

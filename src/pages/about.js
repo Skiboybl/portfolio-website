@@ -7,7 +7,7 @@ import { SEO } from "../utils"
 export default ({ data }) => {
   const MediaLink = ({ title, author, link }) => (
     <li key={title} style={{ color: "gray" }}>
-      <a rel="noopener noreferrer" href={link}>
+      <a rel="noopener noreferrer" href={link} target="_blank">
         {title}
       </a>
       &nbsp;-<i>{author}</i>
@@ -40,7 +40,7 @@ export default ({ data }) => {
           src={`../../icons/stacy1.jpg`}
           alt={author}
         />
-        <article className="w-75 m-auto pt-2 text-justify">
+        <article className="w-75 m-auto pt-2 text-justify about-container">
           <p className="text-center">
             {designations.map((attr, i) => (
               <span key={attr}>
@@ -51,8 +51,8 @@ export default ({ data }) => {
           </p>
           <div className="mt-4 pt-2">
             <p>
-              Hello there! My name is <b>{`${author}`}</b>. I am a
-            <b> {occupation}</b> focused on Front-End Development. I used <Link to="/resume">FreeCodeCamp</Link> and <Link to="/resume">Udemy Couses</Link> to get started, then applied my knowledge to build my own projects.
+              Hello there! My name is <strong>{`${author}`}</strong>. I am a
+            <strong> {occupation}</strong> focused on Front-End Development. I used <Link to="/resume">FreeCodeCamp</Link> and <Link to="/resume">Udemy Couses</Link> to get started, then applied my knowledge to build my own projects.
             <br />
               I am a social person and have great communication skills. I take initiative in difficut situations, and I always stive to implove the product and bring new ideas.
             </p>
@@ -61,15 +61,14 @@ export default ({ data }) => {
             </p>
             <div className="pt-2">
               <h4>Skills:</h4>
-              <div>
-                <b>Front-end:</b> JavaScript, HTML5, CSS3
-              </div>
-              <div>
-                <b>Libraries:</b> React, Redux, Material UI, styled-components
-              </div>
-              <div>
-                <b>Version control:</b> Git
-              </div>
+              <p><strong>Front-end:</strong> JavaScript, HTML5, CSS3
+              </p>
+              <p>
+                <strong>Libraries:</strong> React, Redux, Material UI, styled-components
+              </p>
+              <p>
+                <strong>Version control:</strong> Git
+              </p>
             </div>
           </div>
           <p >
@@ -85,7 +84,7 @@ export default ({ data }) => {
               <hr />
               <p className="unemployed mt-3">
                 <small>
-                  I am <b>currently looking for new life-changing opportunities</b>! If you
+                  I am <strong>currently looking for new life-changing opportunities</strong>! If you
                   like what you <Link to="/resume">see</Link>, let's get
                   in&nbsp;
                   <a

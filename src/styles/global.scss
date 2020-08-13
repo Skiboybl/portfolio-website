@@ -26,6 +26,23 @@ body {
 .bg-none {
   background: rgba(0, 0, 0, 0) !important;
 }
+// I habe used !important only because Bootstrap uses it;
+// Don't use !important in other cases;
+@media screen and (max-width: 600px) {
+  .project-image {
+    width: 70% !important;
+  }
+  .navbar-brand {
+    padding-left: 0 !important;
+    margin-left: 0.5rem !important;
+  }
+  .about-container {
+    width: 85% !important;
+  }
+  .jumbotron{
+    padding-top: 0 !important;
+  }
+}
 
 .aurebesh:hover {
   font-family: "Aurebesh", sans-serif;
@@ -90,7 +107,6 @@ body {
   &:hover {
     color: orange;
   }
-
 }
 /** Home Page Icon Styling END */
 
