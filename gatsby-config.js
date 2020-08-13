@@ -35,7 +35,7 @@ module.exports = {
         link: `https://www.goodreads.com/book/show/4373732-secrets-of-the-javascript-ninja`,
       },
       {
-        title: `TData Structures and Algorithms with JavaScript`,
+        title: `Data Structures and Algorithms with JavaScript`,
         author: `by Michael McMillan`,
         link: `https://www.goodreads.com/book/show/18198883-data-structures-and-algorithms-with-javascript`,
       },
