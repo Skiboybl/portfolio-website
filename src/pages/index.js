@@ -12,7 +12,7 @@ export default ({ data }) => {
   return (
     <PageLayout>
       <SEO title="Home" />
-      <Container className="text-center pt-5" fluid>
+      <Container className="text-center pt-3" fluid>
         <Image
           width="200"
           height="200"
