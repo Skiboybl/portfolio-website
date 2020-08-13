@@ -78,7 +78,7 @@ export default ({ data }) => {
             what's recently caught my eye! */}
           </p>
         </article>
-        <article className="w-75 m-auto pb-4">
+        <article className="w-75 m-auto pb-4 about-container">
           {unemployed && (
             <>
               <hr />
