@@ -37,7 +37,7 @@ export default ({ data }) => {
           width="200"
           height="200"
           roundedCircle
-          src={`../../icons/stacy-1.jpg`}
+          src={`../../icons/stacy1.jpg`}
           alt={author}
         />
         <article className="w-75 m-auto pt-2 text-justify">
