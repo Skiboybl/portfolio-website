@@ -12,11 +12,11 @@ ___
 
 ### Overview and Goals
 
-Responsive Web Application created using Vanilla JavaScript, HTML5 & CSS3.
+**Responsive Web Application** created using **Vanilla JavaScript, HTML5 & CSS3.**
 
-Implemented the AJAX call that retrieves data from the OpenWeather API.
+Implemented the **AJAX call** that retrieves data from the **OpenWeather API.**
 
-Background image changes depending on time.
+Background image **changes depending on time.**
 
 ___
 

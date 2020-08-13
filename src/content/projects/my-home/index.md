@@ -10,28 +10,28 @@ githubLink: "https://github.com/codemyjourney/my-home"
 
 
 #### React & Redux.:
-Use Redux for state management.
+Use **Redux for state management.**
 
-Created reusable components with Styled-Components.
+Created **reusable components** with **Styled-Components.**
 
-Routing with React Router.
+Routing with **React Router.**
 
-Redux Thunk for asynchronous actions like bringing Data from Firestore To the App.
+**Redux Thunk** for **asynchronous actions** like bringing Data from Firestore to the App.
 
-Redux Persist.
+**Redux Persist.**
 
 #### Firebase & Firestore
-Use Firebase to build full stack application.
+Use Firebase to build **full stack application.**
 
-Sign-In workflow with Firebase.
+**Sign-In** workflow with Firebase.
 
-Google Sign-in Authentification.
+**Google Sign-in** Authentification.
 
-Storing User Data In Firebase.
+**Storing User Data In Firebase.**
 ___
 
 
-<image width="100%" src="https://user-images.githubusercontent.com/62475313/88083853-8ad18d80-cb51-11ea-955a-a153ec0fd288.png" frameborder="0" ></image>
+<image width="100%" src="https://user-images.githubusercontent.com/62475313/88083853-8ad18d80-cb51-11ea-955a-a153ec0fd288.png" frameborder="0" alt="myhome shopping page"></image>
 
 ___
 

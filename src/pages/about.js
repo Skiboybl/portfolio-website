@@ -59,7 +59,7 @@ export default ({ data }) => {
             <p>
               In my spare time, I like to read books, think about what I'd like to build next and travel.
             </p>
-            <p className="pt-2">
+            <div className="pt-2">
               <h4>Skills:</h4>
               <div>
                 <b>Front-end:</b> JavaScript, HTML5, CSS3
@@ -70,7 +70,7 @@ export default ({ data }) => {
               <div>
                 <b>Version control:</b> Git
               </div>
-            </p>
+            </div>
           </div>
           <p >
             Check out my <Link to="/projects">personal projects</Link> to see what I've

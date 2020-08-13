@@ -11,7 +11,7 @@ module.exports = {
     author: `Stanislawa Karlinska`,
     firstName: `Stacy`,
     lastName: `K.`,
-    description: `Stacy  personal site`,
+    description: `Stacy's personal site`,
     occupation: `Software Engineer`,
     keywords: [`Stanislawa`, `Karlinska`, `Personal`, `Blog`, `Resume`, `Projects`, `Work`],
     siteUrl:
@@ -82,7 +82,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `standalone`,
-        icon: `${__dirname}/static/favicon.ico`, // This path is relative to the root of the site.
+        icon: `${__dirname}/src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-offline`,

@@ -7,16 +7,20 @@ githubLink: "https://github.com/codemyjourney/Cake-Bakery"
 ---
 
 
-Personal Website for a Cake Bakery, which allows customers to see all available products.
+**Personal Website for a Cake Bakery, which allows customers to see all available products.**
+___
 
-Build with JavaScript HTML5 & CSS3
+Build with **JavaScript, HTML5 & CSS3**
 
 Image optimization.
 
-Use of Fetch API to get the data.
+Used **Fetch API** to get the data.
 
-Implemented Swiper - most modern touch slider to make a review slider.
+Implemented **Swiper** - most modern touch slider to make a review slider.
 
-Realized catalog page and designed the logic to allow the user to filter their searches
+Realized catalog page and **designed the logic** to allow the user to **filter their searches.**
 
-<image width="100%" src="https://i.ibb.co/fFMpnLL/cake-bakery.png" frameborder="0" ></image>
+___
+Catalog Page Filter:
+
+<image width="100%" src="https://i.ibb.co/fFMpnLL/cake-bakery.png" frameborder="0" alt="Catalog-page"></image>

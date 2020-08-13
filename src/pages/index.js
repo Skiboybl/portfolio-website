@@ -41,12 +41,10 @@ export default ({ data }) => {
             <i>
               {occupation} focused on Front-End Development, &nbsp;
             </i>
-            <p>
+            <br/>
               <i>
-
                 I'm self-motivated and well organized person, quick thinking and eager to learn.
               </i>
-            </p>
           </p>
         </Container>
         <hr className="my-3 w-25" />
