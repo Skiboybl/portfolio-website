@@ -42,4 +42,4 @@ endDate: "2020-08-21"
 
 * Realized catalog page and designed the logic to allow the user to filter their searches.</p>
 
-*Use of Fetch API to get the data.</p>
+* Use of Fetch API to get the data.</p>
