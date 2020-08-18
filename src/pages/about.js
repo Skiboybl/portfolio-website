@@ -54,7 +54,7 @@ export default ({ data }) => {
               Hello there! My name is <strong>{`${author}`}</strong>. I am a
             <strong> {occupation}</strong> focused on Front-End Development. I used <Link to="/resume">FreeCodeCamp</Link> and <Link to="/resume">Udemy Couses</Link> to get started, then applied my knowledge to build my own projects.
             <br />
-              I am a social person and have great communication skills. I take initiative in difficut situations, and I always stive to implove the product and bring new ideas.
+              I am a social person and have great communication skills. I take initiative in difficut situations, and I always strive to improve the product and bring new ideas.
             </p>
             <p>
               In my spare time, I like to read books, think about what I'd like to build next and travel.
