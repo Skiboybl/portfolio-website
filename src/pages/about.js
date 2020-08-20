@@ -52,7 +52,7 @@ export default ({ data }) => {
           <div className="mt-4 pt-2">
             <p>
               Hello there! My name is <strong>{`${author}`}</strong>. I am a
-            <strong> {occupation}</strong> focused on Front-End Development. I used <Link to="/resume">FreeCodeCamp</Link> and <Link to="/resume">Udemy Couses</Link> to get started, then applied my knowledge to build my own projects.
+            <strong> {occupation}</strong> focused on Front-End Development. I used <Link to="/resume">FreeCodeCamp</Link> and <Link to="/resume">Udemy Courses</Link> to get started, then applied my knowledge to build my own projects.
             <br />
               I am a social person and have great communication skills. I take initiative in difficut situations, and I always strive to improve the product and bring new ideas.
             </p>
