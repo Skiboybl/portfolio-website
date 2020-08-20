@@ -40,7 +40,7 @@ export default ({ data }) => {
           src={`../../icons/stacy1.jpg`}
           alt={author}
         />
-        <article className="w-75 m-auto pt-2 text-justify about-container">
+        <article className="w-75 m-auto pt-2 text-left about-container">
           <p className="text-center">
             {designations.map((attr, i) => (
               <span key={attr}>
