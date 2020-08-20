@@ -22,7 +22,7 @@ export default ({ excerpt, featuredImages, tags, title, to }) => {
           {tag}
         </Badge>
       ))}
-      <p className="pt-3 text-justify">{excerpt}</p>
+      <p className="pt-3 text-left">{excerpt}</p>
       <Link to={to}>
         View More</Link>
     </Container>

@@ -16,7 +16,7 @@ export default () => {
           className={`brand-icon ${dark ? "empire" : "themeco"}`}
           title="Home"
         /> */}
-          home
+          HOME
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse
@@ -28,13 +28,13 @@ export default () => {
             Blog
           </Nav.Link> */}
           <Nav.Link className="ml-2" as={Link} to="/about" title="About">
-            about
+            ABOUT
           </Nav.Link>
           <Nav.Link className="ml-2" as={Link} to="/projects" title="Projects">
-            projects
+            PROJECTS
           </Nav.Link>
           <Nav.Link className="ml-2" as={Link} to="/resume" title="Resume">
-            resume
+            RESUME
           </Nav.Link>
           <Form className="ml-3 my-auto">
             <Form.Check
