@@ -12,7 +12,7 @@ export default ({ data }) => {
   return (
     <PageLayout>
       <SEO title="Home" />
-      <Container className="text-center pt-3"  fluid>
+      <Container className="text-center pt-3" fluid>
         <Image
           width="200"
           height="200"
@@ -41,9 +41,9 @@ export default ({ data }) => {
             <i>
               {occupation} focused on Front-End Development, &nbsp;
             </i>
-            <br/>
-              <i>
-                I'm self-motivated and well organized person, quick thinking and eager to learn.
+            <br />
+            <i>
+              I'm self-motivated and well organized person, quick thinking and eager to learn.
               </i>
           </p>
         </Container>
@@ -94,7 +94,7 @@ export default ({ data }) => {
               title="Medium"
             />
           </a>
-          <a href="../../resume-frontend-developer.pdf" target="_blank" download>
+          <a href="../../resume.pdf" target="_blank" download>
             <FontAwesomeIcon
               icon={["fas", "file-alt"]}
               className="icons file"
