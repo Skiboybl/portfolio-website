@@ -43,7 +43,7 @@ export default ({ data }) => {
             </i>
             <br />
             <i>
-              I'm self-motivated and well organized person, quick thinking and eager to learn.
+              I'm a self-motivated and well organized person, quick thinking and eager to learn.
               </i>
           </p>
         </Container>
