@@ -1,5 +1,5 @@
 ---
-title: "Contacts"
+title: "Contacts App"
 tags:
   [
     "React",
