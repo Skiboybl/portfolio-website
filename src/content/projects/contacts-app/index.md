@@ -14,13 +14,12 @@ websiteLink: "https://contacts-to-view.netlify.app/contacts"
 githubLink: "https://github.com/codemyjourney/contacts-app"
 ---
 
-**This App allows you to search for contacts, it uses data from r​andomuser.me API**
+<img src="https://user-images.githubusercontent.com/62475313/95621512-d5bbbc80-0a3f-11eb-817e-0d48d2c536e6.png" alt="Contacts-app" border="0" width="100%">
 
----
+#### This App allows you to search for contacts, it uses data from r​andomuser.me API
 
-<img src="https://user-images.githubusercontent.com/62475313/93792490-94d04500-fc03-11ea-8371-1ae9af5788ba.png" alt="app-preview" width="100%"></img>
-
----
+</br>
+</br>
 
 #### &#9758; Complete MVP:
 
@@ -61,5 +60,3 @@ By clicking on the user's name or avatar, there is a transition to the page for 
 When returning from the view page to the contact list page, the previously selected filter, sorting and pagination state must be saved and applied.
 
 ---
-
-<img src="https://user-images.githubusercontent.com/62475313/93792489-9437ae80-fc03-11ea-8528-33665e0167b2.png" alt="statistics-preview"></img>
