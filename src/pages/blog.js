@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { graphql } from "gatsby"
 import { PageLayout, PageTitle, BlogLink } from "../components"
 import { SEO, Utils } from "../utils"
-import { Container } from "react-bootstrap"
+import { Container, Form, FormControl, FormGroup } from "react-bootstrap"
 
 export default ({ data }) => {
   const [state, setState] = useState({
@@ -45,16 +45,18 @@ export default ({ data }) => {
     <PageLayout>
       <SEO title="Blog" />
       <PageTitle title="Blog" />
-      {/* <Container className="px-5 mb-5 text-center">
-        <Form className="aurebesh blog-filter">
-          <FormControl
-            className="bg-none search"
-            type="text"
-            placeholder="Search"
-            onChange={handleChange}
-          />
+      <Container className="px-5 mb-5 text-center">
+        <Form className="blog-filter">
+          <FormGroup>
+            <FormControl
+              className="bg-none search"
+              type="search"
+              placeholder="Search"
+              onChange={handleChange}
+            />
+          </FormGroup>
         </Form>
-      </Container> */}
+      </Container>
       <Container
         fluid
         className="p-4 w-auto text-left d-flex flex-wrap justify-content-center"
