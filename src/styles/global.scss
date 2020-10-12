@@ -27,7 +27,7 @@ body {
 .bg-none {
   background: rgba(0, 0, 0, 0) !important;
 }
-// I habe used !important only because Bootstrap uses it;
+// I have used !important only because Bootstrap uses it;
 // Don't use !important in other cases;
 @media screen and (max-width: 600px) {
   .project-image {
