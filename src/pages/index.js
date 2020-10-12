@@ -47,7 +47,7 @@ export default ({ data }) => {
               </i>
           </p>
         </Container>
-        <hr className="my-3 w-25" />
+        <hr className="my-4 w-25" />
         <div className="d-md-inline-flex icons-container">
           <a
             href="https://www.github.com/codemyjourney"
