@@ -94,13 +94,13 @@ export default ({ data }) => {
               title="Medium"
             />
           </a>
-          <a href="../../resume-software-engineer.pdf" target="_blank" download>
+          {/* <a href="../../resume-software-engineer.pdf" target="_blank" download>
             <FontAwesomeIcon
               icon={["fas", "file-alt"]}
               className="icons file"
               title="Resume Front-end Developer."
             />
-          </a>
+          </a> */}
         </div>
       </Container>
     </PageLayout>
