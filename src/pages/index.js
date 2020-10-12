@@ -39,7 +39,7 @@ export default ({ data }) => {
           )}
           <p>
             <i>
-              {occupation} focused on Front-End Development, &nbsp;
+              {occupation} experienced in Front-end Development, &nbsp;
             </i>
             <br />
             <i>

@@ -16,7 +16,7 @@ githubLink: "https://github.com/codemyjourney/InterCamp"
 
 ---
 
-#### &#9881; STACK
+#### &#9881; STACK:
 
 </br>
 
@@ -42,7 +42,7 @@ The biggest challenge was to **structure data,** so all the **updates are effici
 </br>
 </br>
 
-#### OVerview & Goals:
+#### Overview & Goals:
 
 </br>
 

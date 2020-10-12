@@ -25,7 +25,7 @@ githubLink: "https://github.com/codemyjourney/Best-Runner"
 
 ---
 
-#### &#9881; STACK.
+#### &#9881; STACK:
 
 </br>
 

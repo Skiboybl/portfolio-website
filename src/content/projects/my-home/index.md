@@ -17,7 +17,7 @@ githubLink: "https://github.com/codemyjourney/my-home"
 
 ---
 
-#### &#9881; STACK.
+#### &#9881; STACK:
 
 </br>
 
@@ -58,21 +58,19 @@ Use Firebase to build **full stack application.**
 </br>
 </br>
 
-#### Overview & Goal:
+#### Overview & Goals:
 
 </br>
 
 Retrieve data asynchronously from Firebase;
 
-Display different collections with name and proce;
+Display shop's collection with names and prices;
 
 **Add to favorite:**
 
-Add items to favorite;
+Add selected items to favorite;
 
 Delete from favorite;
-
-Add to cart:
 
 **Add to cart:**
 
