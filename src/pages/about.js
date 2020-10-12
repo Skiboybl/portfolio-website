@@ -64,7 +64,7 @@ export default ({ data }) => {
               <p><strong>Front-end:</strong> JavaScript, HTML5, CSS3
               </p>
               <p>
-                <strong>Libraries:</strong> React, Redux, Material UI, styled-components
+                <strong>Libraries:</strong> React, Redux, Redux-saga, Reselect, Material UI, Styled-Components
               </p>
               <p>
                 <strong>Version control:</strong> Git
@@ -74,8 +74,8 @@ export default ({ data }) => {
           <p >
             Check out my <Link to="/projects">personal projects</Link> to see what I've
             been up to!
-            {/* Or check out my <Link to="/blog">blog</Link> to see
-            what's recently caught my eye! */}
+            Or check out my <Link to="/blog">blog</Link> to see
+            what's recently caught my eye!
           </p>
         </article>
         <article className="w-75 m-auto pb-4 about-container">
