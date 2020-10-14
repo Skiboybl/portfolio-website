@@ -7,11 +7,11 @@ import { Container, Image } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export default ({ data }) => {
-  const { unemployed, firstName, lastName, occupation } = data.site.siteMetadata
+  const { unemployed, firstName, lastName, occupation, image } = data.site.siteMetadata
   // const { dark } = useContext(ThemeContext)
   return (
     <PageLayout>
-      <SEO title="Home" />
+      <SEO title="Home" image={image} />
       <Container className="text-center pt-3" fluid>
         <Image
           width="200"
@@ -115,6 +115,11 @@ export const query = graphql`
         firstName
         lastName
         occupation
+        image {
+          src
+          width
+          height
+        }
       }
     }
   }

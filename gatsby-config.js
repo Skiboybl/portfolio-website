@@ -14,7 +14,11 @@ module.exports = {
     description: `Software Engineering Projects`,
     occupation: `Software Engineer`,
     keywords: [`Stacy`, `Kutyepov`, `Personal`, `Blog`, `Resume`, `Projects`, `Work`],
-    image: `https://user-images.githubusercontent.com/62475313/95633713-453ca680-0a56-11eb-8f1b-32419185b882.png`,
+    image: {
+      src: `/site-image.png`,
+      width: 300,
+      height: 200
+    },
     siteUrl:
       process.env.URL || process.env.DEPLOY_URL || `http://localhost:8000`,
     unemployed: true,
