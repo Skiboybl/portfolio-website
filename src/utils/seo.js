@@ -6,6 +6,7 @@ import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 const SEO = ({ description, lang, meta, image: img, title, pathname }) => {
+
   const { site } = useStaticQuery(query)
 
   const metaDescription = description || site.siteMetadata.description
@@ -32,11 +33,11 @@ const SEO = ({ description, lang, meta, image: img, title, pathname }) => {
         .concat(
           img
             ? [
-                { property: "og:image", content: image },
-                { property: "og:image:width", content: img.width },
-                { property: "og:image:height", content: img.height },
-                { name: "twitter:card", content: "summary_large_image" },
-              ]
+              { property: "og:image", content: image },
+              { property: "og:image:width", content: img.width },
+              { property: "og:image:height", content: img.height },
+              { name: "twitter:card", content: "summary_large_image" },
+            ]
             : [{ name: "twitter:card", content: "summary" }]
         )
         .concat(meta)}
@@ -74,6 +75,7 @@ const query = graphql`
         author
         keywords
         siteUrl
+        image
       }
     }
   }
