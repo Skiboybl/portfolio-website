@@ -11,9 +11,10 @@ module.exports = {
     author: `Stacy Kutyepov`,
     firstName: `Stacy`,
     lastName: `K.`,
-    description: `Stacy's personal site`,
+    description: `Software Engineering Projects`,
     occupation: `Software Engineer`,
     keywords: [`Stacy`, `Kutyepov`, `Personal`, `Blog`, `Resume`, `Projects`, `Work`],
+    image: `https://user-images.githubusercontent.com/62475313/95633713-453ca680-0a56-11eb-8f1b-32419185b882.png`,
     siteUrl:
       process.env.URL || process.env.DEPLOY_URL || `http://localhost:8000`,
     unemployed: true,
