@@ -9,8 +9,8 @@ const CompanyCard = ({ frontmatter, image }) => {
       <Img
         fluid={image}
         style={{
-          maxHeight: "15vmax",
-          maxWidth: "15vmax",
+          maxHeight: "5vmax",
+          maxWidth: "5vmax",
         }}
         className="m-auto"
       />
