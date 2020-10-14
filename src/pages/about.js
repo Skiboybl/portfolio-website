@@ -29,7 +29,7 @@ export default ({ data }) => {
 
   return (
     <PageLayout>
-      <SEO title="About Me" />
+      <SEO title="ABOUT" />
       <PageTitle title="About Me" />
       <Container>
         <Image

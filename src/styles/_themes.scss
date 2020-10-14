@@ -25,7 +25,7 @@ $themes: (
     hr: $hr-green,
     mail: $yellow,
     file: $hr-green,
-    iconBackground: $white,
+    iconBackground: $gray-200,
     cardBackground: $white,
   ),
   dark: (
@@ -47,7 +47,7 @@ $themes: (
     hr: $yellow,
     mail: $yellow,
     file: $yellow,
-    iconBackground: $gray-200,
+    iconBackground: #222,
     cardBackground: $dark-gray,
   ),
 );
