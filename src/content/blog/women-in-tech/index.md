@@ -2,7 +2,7 @@
 title: "Why There Should be More Women in Tech?"
 tags: ["STEM", "Women in tech"]
 description: "Women in tech"
-author: "Stacy K"
+author: "Stacy Kutyepov"
 date: "2020-09-29"
 ---
 

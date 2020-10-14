@@ -2,7 +2,7 @@
 title: "The Software Engineering Learning Plan"
 tags: ["Software Engineering", "Learning", "Job", "Learn to Code"]
 description: "The Software Engineering Learning Plan."
-author: "Stacy K"
+author: "Stacy Kutyepov"
 date: "2020-05-23"
 ---
 
